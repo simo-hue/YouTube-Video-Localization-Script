@@ -53,21 +53,22 @@ Prima di iniziare, assicurati di avere installato:
 Per eseguire lo script, basta fornire l’ID del video di YouTube come argomento. L’ID del video è la parte che segue v= nell’URL del video (ad esempio, https://www.youtube.com/watch?v=cdVsEQsvTZg → cdVsEQsvTZg).
 
 Esegui lo script con il comando:
-    ```bash
-        python traduci.py <VIDEO_ID>
+```bash
+python traduci.py <VIDEO_ID>
+```
 
 Dove <VIDEO_ID> è l’ID del video che desideri localizzare.
 Lo script si autentica con Google, verifica l’esistenza del video, traduce il titolo e la descrizione nelle lingue selezionate e le aggiunge come localizzazioni. Puoi anche vedere un riepilogo delle lingue localizzate.
 
 ## 📋 Dettagli Funzionalità
-	1.	Autenticazione con Google API:
-Lo script utilizza OAuth 2.0 per autenticarsi e ottenere un token di accesso, che consente di interagire con l’API YouTube.
-	2.	Traduzione automatica:
-Lo script traduce automaticamente i titoli e le descrizioni dei video in più lingue utilizzando Google Translate.
-	3.	Aggiunta di Localizzazioni:
-Lo script aggiorna le localizzazioni nel video tramite l’API YouTube, permettendo di aggiungere il titolo e la descrizione tradotti per ogni lingua.
-	4.	Verifica della Localizzazione:
-Viene eseguita una verifica per assicurarsi che le lingue siano già localizzate prima di procedere con l’aggiunta.
+1.	Autenticazione con Google API:
+    Lo script utilizza OAuth 2.0 per autenticarsi e ottenere un token di accesso, che consente di interagire con l’API YouTube.
+2.	Traduzione automatica:
+    Lo script traduce automaticamente i titoli e le descrizioni dei video in più lingue utilizzando Google Translate.
+3.	Aggiunta di Localizzazioni:
+    Lo script aggiorna le localizzazioni nel video tramite l’API YouTube, permettendo di aggiungere il titolo e la descrizione tradotti per ogni lingua.
+4.	Verifica della Localizzazione:
+    Viene eseguita una verifica per assicurarsi che le lingue siano già localizzate prima di procedere con l’aggiunta.
 
 ⸻
 
@@ -97,12 +98,12 @@ Se il servizio di traduzione non è disponibile o non può tradurre una lingua, 
 ## 📄 Contributi
 
 Se desideri contribuire al progetto, sentiti libero di aprire una pull request. Per segnalare bug o problemi, apri un issue.
-	1.	Fork del repository.
-	2.	Crea un ramo (git checkout -b feature-xyz).
-	3.	Apporta le modifiche necessarie.
-	4.	Committa le modifiche (git commit -am 'Aggiungi nuove funzionalità').
-	5.	Pusha sul ramo (git push origin feature-xyz).
-	6.	Crea una pull request.
+1.	Fork del repository.
+2.	Crea un ramo (git checkout -b feature-xyz).
+3.	Apporta le modifiche necessarie.
+4.	Committa le modifiche (git commit -am 'Aggiungi nuove funzionalità').
+5.	Pusha sul ramo (git push origin feature-xyz).
+6.	Crea una pull request.
 
 ## 📧 Contatti
 
