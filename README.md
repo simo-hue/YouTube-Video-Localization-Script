@@ -57,6 +57,8 @@ Esegui lo script con il comando:
 python traduci.py <VIDEO_ID>
 ```
 
+![Esempio corretto di funzionamento](IMG/corretto.png)
+
 Dove <VIDEO_ID> è l’ID del video che desideri localizzare.
 Lo script si autentica con Google, verifica l’esistenza del video, traduce il titolo e la descrizione nelle lingue selezionate e le aggiunge come localizzazioni. Puoi anche vedere un riepilogo delle lingue localizzate.
 
@@ -93,6 +95,10 @@ Questo errore si verifica se l’account Google non ha i permessi necessari. Ass
 
 Se il servizio di traduzione non è disponibile o non può tradurre una lingua, assicurati che la lingua sia correttamente supportata da Google Translate e che il codice lingua sia valido.
 
+4. Errore 403 - Quota Exeeded
+   Si verifica quando si ha già utilizzato tutte le chiamate a noi disponibili in 24 ore.
+   ![da terminale](IMG/limite.png)
+5. Se si avesse già fatto una traduzione il programma non spreca le quote di API disponibili e salta alla prossima lingua![screen](IMG/se%20già%20fatto.png)
 ⸻
 
 ## 📄 Contributi
