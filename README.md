@@ -39,12 +39,12 @@ Prima di iniziare, assicurati di avere installato:
 
 ## 🚀 Configurazione
 1.	**Crea un progetto Google Cloud:**
-        •	Vai su Google Cloud Console.
-        •	Crea un nuovo progetto e attiva l’API YouTube Data v3.
-        •	Crea delle credenziali OAuth 2.0 (scarica il file client_secrets.json).
+    •	Vai su Google Cloud Console.
+    •	Crea un nuovo progetto e attiva l’API YouTube Data v3.
+    •	Crea delle credenziali OAuth 2.0 (scarica il file client_secrets.json).
 	
 2.	**Configura il file delle lingue:**
-	    •	Crea un file chiamato youtube_languages.txt e aggiungi i codici delle lingue per cui desideri aggiungere la localizzazione (un codice lingua per riga). ( c'è già un file contentente tutte le lingue disponibili)
+	•	Crea un file chiamato youtube_languages.txt e aggiungi i codici delle lingue per cui desideri aggiungere la localizzazione (un codice lingua per riga). ( c'è già un file contentente tutte le lingue disponibili)
     
 3.	**Scarica il file client_secrets.json e posizionalo nella stessa cartella dello script.**
 
